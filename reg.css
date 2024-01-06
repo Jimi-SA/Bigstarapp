@@ -1,0 +1,43 @@
+body {
+    background-color:rgba(172, 170, 170, 0.945);
+ /* Set a light background color for the body */
+    color:rgb(56, 2, 2);
+    background-repeat:no-repeat;
+}
+
+.container {
+    max-width: 400px; /* Limit the width of the container for a sleek look */
+    margin-top: 50px; /* Add some top margin for spacing */
+}
+
+.form-group label {
+    font-weight: bold; /* Make labels bold for emphasis */
+    margin:10px;
+}
+
+.form-control {
+    border-radius: 10px; /* Add rounded corners to form controls */
+}
+.btn-primary {
+    margin:20px auto;
+    background-color:purple; /* Set a primary button color */
+    border:none; /* Set border color for consistency */
+    display:block;
+
+}
+
+.btn-primary:hover {
+    background-color: #dad74d; /* Set a darker color on hover */
+    border:none; /* Set border color for consistency */
+}
+.container-fluid{
+    width:120%;
+    background:rgba(255, 255, 255, 0.459);
+    border-radius:10px;
+    padding:16px;
+}
+.btn-back{
+    display:block;
+    float:right;
+    margin-right:20px;
+}
